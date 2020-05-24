@@ -14,62 +14,71 @@
         <div id="content" role="main">
           <!-- TODO: Content goes here -->
 
-          <header>
+          <header class="header">
             <img src="logo.png" alt="EPAM-logo">
             <h1>HTML BASICS</h1>
 
             <nav>
-              <a href="#home">Home</a>
+
+              <a href="#">Home</a>
               <a href="#headings">Headings</a>
               <a href="#table">Table</a>
               <a href="#lists">Types of lists</a>
               <a href="#texts">Text formats</a>
               <a href="#Blockquotes">Blockquotes</a>
               <a href="#reg-form">Registration</a>
+
             </nav>
 
             <hr>
           </header>
 
-          <section>
-            <p>
-              <b>Fructose</b>, or
-              <b>fruit sugar</b>, is a simple <i>ketonic monosaccharide</i> found in many plants, where it is often bonded to glucose to form the disaccharide sucrose.
-              It is one of the three dietary <u>monosaccharides</u>, along with glucose and galactose, that are absorbed directly into blood during digestion.
-              Its formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> and its density is 1.694 g/cm<sup>3</sup>.
-              Fructose was discovered by French chemist
-              <a href="#">Augustin-Pierre Dubrunfaut</a> in
-              <ins>1847</ins>, not in <del>1846</del>.
-            </p>
-            <p>
-              It makes us <strong>strong!</strong>
-              This is emphasized.
-            </p>
-            <p>
-              Excessive consumption of fructose (especially from sugar-sweetened beverages) may contribute to insulin resistance, obesity, elevated
-              Low-density lipoprotein LDL cholesterol and triglycerides, leading to metabolic syndrome.
-              The European Food Safety Authority EFSA stated that fructose may be preferable over sucrose and glucose in sugar-sweetened foods and beverages because of its lower effect on postprandial blood sugar levels, and noted that
-              <cite>high intakes of fructose may lead to metabolic complications such as dyslipidaemia, insulin resistance, and increased visceral adiposity</cite> (this is a citation).
-            </p>
-            <hr>
-          </section>
+          <p>
+            <b>Fructose</b>, or
+            <b>fruit sugar</b>, is a simple <i>ketonic monosaccharide</i> found in many plants, where it is often bonded
+            to glucose to form the disaccharide sucrose.
+            It is one of the three dietary <u>monosaccharides</u>, along with glucose and galactose, that are absorbed
+            directly into blood during digestion.
+            Its formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> and its density is 1.694 g/cm<sup>3</sup>.
+            Fructose was discovered by French chemist
+            <a href="#">Augustin-Pierre Dubrunfaut</a> in
+            <ins>1847</ins>, not in <del>1846</del>.
+          </p>
+          <p>
+            It makes us <strong>strong!</strong>
+            This is emphasized.
+          </p>
+          <p>
+            Excessive consumption of fructose (especially from sugar-sweetened beverages) may contribute to insulin
+            resistance, obesity, elevated
+            Low-density lipoprotein LDL cholesterol and triglycerides, leading to metabolic syndrome.
+            The European Food Safety Authority EFSA stated that fructose may be preferable over sucrose and glucose in
+            sugar-sweetened foods and beverages because of its lower effect on postprandial blood sugar levels, and
+            noted that
+            <cite>high intakes of fructose may lead to metabolic complications such as dyslipidaemia, insulin
+              resistance, and increased visceral adiposity</cite> (this is a citation).
+          </p>
+          <hr>
 
-          <section>
-            <p id="headings">
-              h1 defines the most important heading. h6 defines the least important heading. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header
-            </p>
-            <p>
-              <h2>Heading 2</h2>
-              <h3>Heading 3</h3>
-              <h4>Heading 4</h4>
-              <h5>Heading 5</h5>
-              <h6>Heading 6</h6>
-            </p>
-            <hr>
-          </section>
 
-          <section>
-            <h2 id="table">Sugar content of selected common plant foods (g/100g)</h2>
+          <article id="headings">
+            <p>
+              h1 defines the most important heading. h6 defines the least important heading. Font-size for h1 is the
+              same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside
+              header
+            </p>
+
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+
+            <hr>
+          </article>
+
+          <section id="table">
+            <h2>Sugar content of selected common plant foods (g/100g)</h2>
             <table>
               <tr>
                 <td>Food item</td>
@@ -100,8 +109,8 @@
             <hr>
           </section>
 
-          <section>
-            <h3 id="lists">Unordered Shopping List</h3>
+          <section id="lists">
+            <h3>Unordered Shopping List</h3>
             <ul>
               <li>Fruits:
                 <ul>
@@ -139,8 +148,8 @@
             <hr>
           </section>
 
-          <section>
-            <h2 id="texts">Text formats</h2>
+          <section id="texts">
+            <h2>Text formats</h2>
             <h3>Preformatted Text</h3>
             <pre>
 Text in a pre element
@@ -149,25 +158,26 @@ font, and it preserves
 both           spaces and
 line breaks
             </pre>
+
             <h3>This is code</h3>
-            <code>
-              <pre>
+
+            <pre>
 .flex {
   display: flex;
   justify-content: justify;
   aliign-items: center;
 }
               </pre>
-            </code>
-            <h2 id="Blockquotes">Blockquotes</h2>
+            <div id="Blockquotes">
+              <h2>Blockquotes</h2>
+            </div>
             <p>
-              Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.
+              Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the
+              citation.
             </p>
             <blockquote>
-              <q>"So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read."</q>
-
-              <!--НЕ УВЕРЕН НУЖЕН ЛИ ТУТ тэг <br >
-              И как реализовать перенос чтобы не юзать БэЭр-->
+              <q>"So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write,
+                make it easy to read."</q>
 
               <br>
               <cite><a href="#">Robert C. Martin (Uncle Bob)</a></cite>
@@ -175,21 +185,19 @@ line breaks
             <hr>
           </section>
 
-          <section>
-            <form id="reg-form">
-              <p>Name: <input type="text"></p>
-              <p>Email: <input type="email"></p>
-              <p>Password: <input type="password"></p>
-              <p>Select Programming Language: 
-                <select name="Programming">
-                  <option value="1">JavaScript</option>
-                </select>
-              </p>
-              <textarea cols="22" rows="4"></textarea>
-              <br>
-              <button>Submit</button>
-            </form>
-          </section>
+          <form id="reg-form">
+            <p>Name: <input type="text" ></p>
+            <p>Email: <input type="email"></p>
+            <p>Password: <input type="password"></p>
+            <p>Select Programming Language:
+              <select name="Programming">
+                <option value="1">JavaScript</option>
+              </select>
+            </p>
+            <textarea cols="22" rows="4"></textarea>
+            <br>
+            <button>Submit</button>
+          </form>
 
         </div>
       </div>
@@ -198,5 +206,3 @@ line breaks
 </body>
 
 </html>
-
-
